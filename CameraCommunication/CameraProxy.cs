@@ -1,4 +1,5 @@
-﻿using System.Timers;
+﻿using System.Security.AccessControl;
+using System.Timers;
 using EventAggregatorDemo;
 using Timer = System.Timers.Timer;
 
@@ -22,10 +23,28 @@ namespace CameraCommunication
             var data = DateTime.Now.Ticks;
             var message = new NewImageEvent { Data = data, KameraName = Name};
 
+            LastImage = data;
+
             _eventAggregator.Publish(this, message);
         }
 
         public string Name { get; set; }
+        public long LastImage { get; set; }
+
+        public long GetImage()
+        {
+            if (LastImage != 0)
+            {
+                return LastImage;
+            }
+            else
+            {
+                // Verbinden
+                // Bild holen
+                // Verbindung schließen
+                return 0;
+            }
+        }
 
         public void Start()
         {
