@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+       <TabControl>
+           <TabItem Header="Tab2">
+               <Grid>
+                   <TextBox HorizontalAlignment="Left" Margin="510,171,0,0" TextWrapping="Wrap" Text="{Binding ImageData1}" VerticalAlignment="Top" Width="120"/>
+                   <Button Content="Start" HorizontalAlignment="Left" Margin="162,171,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+                    <Button Content="Stop" HorizontalAlignment="Left" Margin="162,196,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+                    <TextBox HorizontalAlignment="Left" Margin="510,203,0,0" TextWrapping="Wrap" Text="{Binding ImageData2}" VerticalAlignment="Top" Width="120"/>
+                </Grid>
+            </TabItem>
+       </TabControl>
+
+    </Grid>
+</Window>
