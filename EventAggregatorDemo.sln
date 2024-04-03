@@ -11,15 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{9E71F9F2-6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{62324B1E-91B3-41B2-9BEB-2777EE22485C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventAggregation", "EventAggregation\EventAggregation.csproj", "{180ED1E1-976A-4C96-9E3E-E14565C293B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventAggregation", "EventAggregation\EventAggregation.csproj", "{180ED1E1-976A-4C96-9E3E-E14565C293B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfClient", "WpfClient\WpfClient.csproj", "{93C95AA1-9A79-4055-8CA5-382A8F145CDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfClient", "WpfClient\WpfClient.csproj", "{93C95AA1-9A79-4055-8CA5-382A8F145CDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{D6173977-48A6-4298-A310-FE1DCCB3B4FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messages", "Messages\Messages.csproj", "{D6173977-48A6-4298-A310-FE1DCCB3B4FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraManagement", "CameraManagement\CameraManagement.csproj", "{E15B05DF-AA50-4181-897D-7C0C6D0B7F15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CameraManagement", "CameraManagement\CameraManagement.csproj", "{E15B05DF-AA50-4181-897D-7C0C6D0B7F15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraCommunication", "CameraCommunication\CameraCommunication.csproj", "{BF114AEC-F5BB-4F53-BBE5-84D0B4AB944A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CameraCommunication", "CameraCommunication\CameraCommunication.csproj", "{BF114AEC-F5BB-4F53-BBE5-84D0B4AB944A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration", "Configuration\Configuration.csproj", "{C60F0299-3589-4A55-B6D6-0D4AE2E0C105}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{BF114AEC-F5BB-4F53-BBE5-84D0B4AB944A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF114AEC-F5BB-4F53-BBE5-84D0B4AB944A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF114AEC-F5BB-4F53-BBE5-84D0B4AB944A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60F0299-3589-4A55-B6D6-0D4AE2E0C105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60F0299-3589-4A55-B6D6-0D4AE2E0C105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60F0299-3589-4A55-B6D6-0D4AE2E0C105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60F0299-3589-4A55-B6D6-0D4AE2E0C105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{D6173977-48A6-4298-A310-FE1DCCB3B4FB} = {60F28B80-D813-4933-8EE4-307BC7D3F1A4}
 		{E15B05DF-AA50-4181-897D-7C0C6D0B7F15} = {A6DF69D1-0858-4B4A-A511-3884279DC9D6}
 		{BF114AEC-F5BB-4F53-BBE5-84D0B4AB944A} = {9E71F9F2-6F38-45C6-9069-D34AF3939E48}
+		{C60F0299-3589-4A55-B6D6-0D4AE2E0C105} = {60F28B80-D813-4933-8EE4-307BC7D3F1A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1312532-34D0-48A5-8541-0C8297CEE6CD}
